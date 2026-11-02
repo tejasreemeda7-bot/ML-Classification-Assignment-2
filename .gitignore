@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Keep training data local; include test data in repository
+dataset/train_data.csv
